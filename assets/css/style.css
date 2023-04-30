@@ -1,0 +1,15 @@
+body {
+  background: url("/src/background.jpg");
+}
+* {
+  font-family: "Patrick Hand", Georgia;
+  font-weight: bold;
+}
+h1 {
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.charusat {
+  position: absolute;
+}

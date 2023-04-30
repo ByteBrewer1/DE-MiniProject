@@ -1,0 +1,36 @@
+body {
+  background: url("background.jpg");
+}
+
+* {
+  font-family: "Patrick Hand", Georgia;
+  font-weight: bold;
+}
+
+h1 {
+  color: blue;
+  font-family: Georgia;
+}
+
+h2 {
+  color: blue;
+  font-family: "Patrick Hand", Georgia;
+}
+
+.cspit {
+  position: absolute;
+  top: 0cm;
+  right: 0cm;
+  z-index: -5;
+}
+
+.charusat {
+  position: absolute;
+  top: 0.6cm;
+  left: 0cm;
+  z-index: -5;
+}
+
+.latexcode {
+  font-family: Courier, Georgia;
+}

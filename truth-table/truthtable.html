@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Truth Table Generator | Rahul Mistry</title>
+
+
+<script src='truthtable.js' type="text/javascript"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+ <link
+      href="https://fonts.googleapis.com/css?family=Patrick+Hand"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="karnaugh.ico" />
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+<header style="text-align: center">
+    <img class="charusat" src="logo.png" />
+    <img class="cspit" src="CSPIT.png" />
+    <h1>Truth Table Generator | Digital Electronics</h1>
+    <h3>By Rahul Mistry - 22CS042<br />Computer Science Engineer - CSPIT</h3>
+    <center>Mentor : Harshul Yagnik, Dr.Nilay Patel</center>
+  </header>
+
+
+<body>
+
+<div id='container'>
+
+<h1>Truth Table Generator</h2>
+
+<div id="ttinput">
+  <input type="text" id="in" size="40">
+  <input type="button" value="Generate Table" onclick="construct();">
+</div>
+
+<div id="tt"></div>
+
+<div id="in-op">
+
+<div id="in-op1">
+<div>Truth-Values:</div>
+<input type="radio" id="tv1" name="tvstyle" value="tf" checked><label for="tv1">T/F</label><br>
+<input type="radio" id="tv2" name="tvstyle" value="tb"><label for="tv2">&#8868;/&perp;</label><br>
+<input type="radio" id="tv3" name="tvstyle" value="oz"><label for="tv3">1/0</label><br>
+</div>
+
+<div id="in-op2">
+<div>Connectives:</div>
+<input type="radio" id="cn1" name="cset" value="cs1" checked><label for="cn1">&not;, &and;, &or;, &rarr;, &harr;</label><br>
+<input type="radio" id="cn2" name="cset" value="cs2"><label for="cn2">~, &amp;, &or;, &rarr;, &harr;</label><br>
+<input type="radio" id="cn3" name="cset" value="cs3"><label for="cn3">~, &amp;, &or;, &sup;, &equiv;</label><br>
+</div>
+
+<div id="in-op3">
+<div>Table Type:</div>
+<input type="radio" name="style" id="full" checked><label for="full">Full Table</label><br>
+<input type="radio" name="style" id="main"><label for="main">Main Connective Only</label><br>
+<input type="radio" name="style" id="text"><label for="textt"><label for="full">Text Table</label><br>
+<input type="radio" name="style" id="latex"><label for="latex">LaTex Table</label><br>
+</div>
+
+</div>
+<br>
+
+
+
+
+<p><b>Symbols:</b> use the following keyboard symbols in your input for the various logical connectives:</p>
+
+
+<table>
+<tr><td class="connective">~</td><td>for negation</td></tr>
+<tr><td class="connective">&amp;</td><td>for conjunction</td></tr>
+<tr><td class="connective">v</td><td>for disjunction</td></tr>
+<tr><td class="connective">&gt;</td><td>for the conditional</td></tr>
+<tr><td class="connective">&lt; &gt;</td><td>for the biconditional</td></tr>
+<tr><td class="connective">#</td><td>for absurdity</td></tr>
+<tr><td class="connective">|</td><td>for NAND</td></tr>
+<tr><td class="connective">!</td><td>for NOR </td></tr>
+</table>
+
+<br>
+<p>Here are some examples of well-formed inputs the program will accept:</p>
+
+<ul style="list-style-type:none;padding:0;">
+<li>~A</li>
+<li>(A &amp; B)</li>
+<li>(A &amp; (~B > C))</li>
+<li>(# &gt; (B v ~A))</li>
+<li>(A|B) &lt;&gt; ~(A &amp; B)</li>
+<li>(A &lt;&gt; (B v C)), A, (~B > C)</li>
+</ul>
+
+
+</div>
+<!-- Close container div -->
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+
+<script type="text/javascript">
+var sc_project=10143714;
+var sc_invisible=1;
+var sc_security="d4b1e890";
+var sc_client_storage="disabled";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="free web stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/10143714/0/d4b1e890/1/" alt="free
+web stats"></a></div></noscript>
+
+<!-- End of StatCounter Code for Default Guide -->
+
+
+</body>
+
+</html>

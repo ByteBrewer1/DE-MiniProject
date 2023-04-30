@@ -1,0 +1,48 @@
+body {
+  background: url("background.jpg");
+  text-align: center;
+}
+
+* {
+  font-family: "Patrick Hand", Georgia;
+  font-weight: bold;
+}
+
+div {
+  padding: 2em;
+}
+
+h1 {
+  color: blue;
+  font-family: Georgia;
+}
+
+h2 {
+  color: blue;
+  font-family: "Patrick Hand", Georgia;
+}
+
+.cspit {
+  position: absolute;
+  top: 0cm;
+  right: 0cm;
+  z-index: -5;
+}
+
+.charusat {
+  position: absolute;
+  top: 0.6cm;
+  left: 0cm;
+  z-index: -5;
+}
+input {
+  background-color: #404040;
+  border-color: #202020;
+  color: #f0f0f0;
+  padding: 0.5em;
+  width: 3em;
+}
+
+strong {
+  font-size: 1.5em;
+}

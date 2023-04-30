@@ -1,0 +1,160 @@
+body {
+  font-family: "Open Sans", Verdana, Helvetica, sans-serif;
+  color: #444444;
+  height: 100%;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("background.jpg");
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+  font-family: Georgia;
+}
+
+h2 {
+  color: blue;
+  font-family: "Patrick Hand", Georgia;
+}
+a:link {
+  color: #4b2ede;
+  text-decoration: none;
+} /* unvisited link */
+a:visited {
+  color: #4b2ede;
+  text-decoration: none;
+} /* visited link */
+a:hover {
+  color: #9d90dc;
+  text-decoration: none;
+} /* mouse over link */
+a:active {
+  color: #ffa04d;
+  text-decoration: none;
+} /* selected link */
+
+#container {
+  width: 90%;
+  max-width: 800px;
+  position: relative;
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+#location {
+  color: #999999;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+#location a {
+  color: #999999;
+}
+
+#githublink {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#title {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#ttinput {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#tt {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: solid 1px #d3d3d3;
+  border-bottom: solid 1px #d3d3d3;
+  min-height: 80px;
+}
+
+#in-op {
+  width: 100%;
+}
+
+#in-op1,
+#in-op2,
+#in-op3 {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+table.truth {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table.truth th {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 0.2em;
+  font-weight: normal;
+}
+
+table.truth td {
+  border: 0;
+  padding: 0.2em;
+}
+
+table.truth .dv {
+  border-right: 1px solid black;
+}
+
+table.truth .mc {
+  color: red;
+}
+
+td.connective {
+  padding-right: 1em;
+}
+
+footer {
+  font-size: 85%;
+  color: #aaaaaa;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+}
+
+* {
+  font-family: "Patrick Hand", Georgia;
+  font-weight: bold;
+}
+.cspit {
+  position: absolute;
+  top: 0cm;
+  right: 0cm;
+  z-index: -5;
+}
+
+.charusat {
+  position: absolute;
+  top: 0.6cm;
+  left: 0cm;
+  z-index: -5;
+}
