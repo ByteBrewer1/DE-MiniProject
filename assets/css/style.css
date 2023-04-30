@@ -12,4 +12,9 @@ h1 {
 
 .charusat {
   position: absolute;
+  top: 0 cm;
+  left: 0cm;
+}
+.cspit {
+  position: absolute;
 }
