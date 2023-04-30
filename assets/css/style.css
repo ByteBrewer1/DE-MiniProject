@@ -10,11 +10,16 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.charusat {
-  position: absolute;
-  top: 0 cm;
-  left: 0cm;
-}
 .cspit {
   position: absolute;
+  top: 0cm;
+  right: 0cm;
+  z-index: -5;
+}
+
+.charusat {
+  position: absolute;
+  top: 0.6cm;
+  left: 0cm;
+  z-index: -5;
 }
