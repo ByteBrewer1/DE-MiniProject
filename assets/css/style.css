@@ -13,14 +13,14 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.cspit {
+.cspit_logo {
   position: absolute;
   top: 0cm;
   right: 0cm;
   z-index: -5;
 }
 
-.charusat {
+.charusat_logo {
   position: absolute;
   top: 0.9cm;
   left: 0cm;
